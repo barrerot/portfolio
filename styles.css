@@ -58,7 +58,7 @@ header {
 
 /* Banner */
 .banner {
-  background-image: url("banner.jpg");
+  background-image: url("assets/banner.jpg");
   background-size: cover;
   background-position: center;
   height: 400px;
