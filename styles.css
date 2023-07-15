@@ -264,3 +264,38 @@ footer {
 .error-page h1 {
   font-size: 24px;
 }
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  height: 10px;
+  width: 0;
+  animation: progress-animation 2s ease-in-out;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  height: 10px;
+  width: 0;
+  animation: progress-animation 2s ease-in-out;
+}
+
+.red {
+  background-color: #991108;
+}
+
+@keyframes progress-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
