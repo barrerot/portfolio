@@ -211,9 +211,6 @@ footer {
     color: #fff;
   }
 
-  .menu-toggle:checked + .menu {
-    display: flex;
-  }
 
   .banner {
     background-image: url("assets/baner_mobile.png");
