@@ -296,3 +296,17 @@ footer {
     width: 100%;
   }
 }
+
+.video {
+  opacity: 0;
+  animation: fadeInVideo 2s ease-in-out forwards;
+}
+
+@keyframes fadeInVideo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
