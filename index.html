@@ -11,7 +11,8 @@
 <body>
   <header>
     <nav class="navbar">
-            <ul class="menu">
+      <div class="menu-icon" id="menu-icon">&#9776;</div>
+      <ul class="menu" id="menu">
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#about">Sobre mí</a></li>
         <li><a href="#projects">Proyectos</a></li>
@@ -363,6 +364,14 @@
     </div>
   </footer>
 
+  <script>
+    const menuIcon = document.getElementById('menu-icon');
+    const menu = document.getElementById('menu');
+
+    menuIcon.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
 </body>
 
 </html>

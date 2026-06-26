@@ -203,6 +203,10 @@ footer {
     z-index: 999;
   }
 
+  .menu.active {
+    display: flex;
+  }
+
   .menu li {
     margin-bottom: 10px;
   }
